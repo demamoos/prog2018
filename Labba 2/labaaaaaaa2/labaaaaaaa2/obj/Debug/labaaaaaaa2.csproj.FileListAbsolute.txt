@@ -1,0 +1,6 @@
+c:\users\ipy\documents\visual studio 2015\Projects\labaaaaaaa2\labaaaaaaa2\bin\Debug\labaaaaaaa2.exe.config
+c:\users\ipy\documents\visual studio 2015\Projects\labaaaaaaa2\labaaaaaaa2\bin\Debug\labaaaaaaa2.exe
+c:\users\ipy\documents\visual studio 2015\Projects\labaaaaaaa2\labaaaaaaa2\bin\Debug\labaaaaaaa2.pdb
+c:\users\ipy\documents\visual studio 2015\Projects\labaaaaaaa2\labaaaaaaa2\obj\Debug\labaaaaaaa2.csprojResolveAssemblyReference.cache
+c:\users\ipy\documents\visual studio 2015\Projects\labaaaaaaa2\labaaaaaaa2\obj\Debug\labaaaaaaa2.exe
+c:\users\ipy\documents\visual studio 2015\Projects\labaaaaaaa2\labaaaaaaa2\obj\Debug\labaaaaaaa2.pdb
