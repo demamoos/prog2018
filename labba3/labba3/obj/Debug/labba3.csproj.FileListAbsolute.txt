@@ -1,0 +1,6 @@
+c:\users\ipy\documents\visual studio 2015\Projects\labba3\labba3\bin\Debug\labba3.exe.config
+c:\users\ipy\documents\visual studio 2015\Projects\labba3\labba3\obj\Debug\labba3.csprojResolveAssemblyReference.cache
+c:\users\ipy\documents\visual studio 2015\Projects\labba3\labba3\bin\Debug\labba3.exe
+c:\users\ipy\documents\visual studio 2015\Projects\labba3\labba3\bin\Debug\labba3.pdb
+c:\users\ipy\documents\visual studio 2015\Projects\labba3\labba3\obj\Debug\labba3.exe
+c:\users\ipy\documents\visual studio 2015\Projects\labba3\labba3\obj\Debug\labba3.pdb
