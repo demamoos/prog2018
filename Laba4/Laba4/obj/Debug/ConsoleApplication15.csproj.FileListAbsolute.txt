@@ -1,0 +1,9 @@
+c:\users\ipy\documents\visual studio 2015\Projects\ConsoleApplication15\ConsoleApplication15\bin\Debug\ConsoleApplication15.exe.config
+c:\users\ipy\documents\visual studio 2015\Projects\ConsoleApplication15\ConsoleApplication15\obj\Debug\ConsoleApplication15.csprojResolveAssemblyReference.cache
+C:\Users\IPY\Documents\Visual Studio 2015\Projects\ConsoleApplication15\ConsoleApplication15\bin\Debug\ConsoleApplication15.exe
+C:\Users\IPY\Documents\Visual Studio 2015\Projects\ConsoleApplication15\ConsoleApplication15\bin\Debug\ConsoleApplication15.pdb
+C:\Users\IPY\Documents\Visual Studio 2015\Projects\ConsoleApplication15\ConsoleApplication15\obj\Debug\ConsoleApplication15.exe
+C:\Users\IPY\Documents\Visual Studio 2015\Projects\ConsoleApplication15\ConsoleApplication15\obj\Debug\ConsoleApplication15.pdb
+C:\Users\IPY\Documents\GitHub\prog2018\Laba4\ConsoleApplication15\bin\Debug\ConsoleApplication15.exe.config
+C:\Users\IPY\Documents\GitHub\prog2018\Laba4\ConsoleApplication15\obj\Debug\ConsoleApplication15.exe
+C:\Users\IPY\Documents\GitHub\prog2018\Laba4\ConsoleApplication15\obj\Debug\ConsoleApplication15.pdb
