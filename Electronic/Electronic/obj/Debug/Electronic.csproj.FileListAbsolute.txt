@@ -1,0 +1,6 @@
+C:\Users\IPY\Downloads\Electronic\Electronic\obj\Debug\Electronic.csprojResolveAssemblyReference.cache
+C:\Users\IPY\Downloads\Electronic\Electronic\obj\Debug\Electronic.csproj.CoreCompileInputs.cache
+C:\Users\IPY\Downloads\Electronic\Electronic\bin\Debug\Travel.dll
+C:\Users\IPY\Downloads\Electronic\Electronic\bin\Debug\Travel.pdb
+C:\Users\IPY\Downloads\Electronic\Electronic\obj\Debug\Travel.dll
+C:\Users\IPY\Downloads\Electronic\Electronic\obj\Debug\Travel.pdb
