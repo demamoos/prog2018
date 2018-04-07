@@ -23,9 +23,9 @@ namespace Electronic
         /// </summary>
         public string FullName { get; set; }
         /// <summary>
-        /// Требования к ноутбуку
+        /// Сведения о ноутбуке
         /// </summary>
-        public ElectronicRequirements Laptop { get; set; }
+        public List <ElectronicRequirements> ElectronicRequirements { get; set; }
         /// <summary>
         /// Стоимость
         /// </summary>
@@ -36,18 +36,26 @@ namespace Electronic
 
     
     /// <summary>
-    /// Описание путушествия
+    /// Сведения о ноутбуке
     /// </summary>
     public class ElectronicRequirements
     {   
-        /// <summary>
+        /// <summary>   
         /// Наименование марки производителя
         /// </summary>
-        public NameLaptop NameLaptop{ get; set; }
+        public string NameLaptop{ get; set; }
         /// <summary>
         /// Дополнительные сведения
         /// </summary>
         public List<Addition> additions { get; set; }
+        public override string ToString()
+        {
+            return NameLaptop;
+        }
+        public ElectronicRequirements Clone()
+        {
+            return new ElectronicRequirements { NameLaptop = NameLaptop, additions = additions };
+        }
     }
 
     
@@ -56,63 +64,30 @@ namespace Electronic
         /// <summary>
         /// Оперативная память
         /// </summary>
-        public Memory Memory { get; set; }
+        public int Memory { get; set; }
         /// <summary>
         /// Видеокарта
         /// </summary>
-        public VideoCard VideoCard { get; set; }
+        public string VideoCard { get; set; }
         /// <summary>
         /// Процессор
         /// </summary>
-        public Processor Processor { get; set; }
+        public string Processor { get; set; }
+        public override string ToString()
+        {
+            return string.Format("{0} {1} {2} {3}", Memory, VideoCard, Processor);
+        }  
+        public Addition Clone()
+        {
+            return new Addition { Memory = Memory, VideoCard = VideoCard, Processor = Processor };
+        }
 
     }
 
     /// <summary>
     /// Наименования ноутбуков
     /// </summary>
-    public enum NameLaptop
-    {
-        Lenovo,
-        MSI,
-        Asus,
-        DXP,
-        Samsung,
-    }
-
-
-    /// <summary>
-    /// Типо процессора
-    /// </summary>
-    public enum Processor
-    {
-        IntelCoreI3,
-        IntelCoreI5,
-        IntelCoreI7,
-
-    }
-    /// <summary>
-    /// Тип видеокарты
-    /// </summary>
-    public enum VideoCard
-    {
-        Nvidia,
-        Radeon,
-    }
-    /// <summary>
-    /// Количество оперативки
-    /// </summary>
-    public enum Memory
-    {
-        twogiga,
-        fourgigov,
-        sixgigov,
-        eightgigov,
-    }
-    /// <summary>
-    /// Валюта
-    /// </summary>
-    /// 
+  
     public enum Currency
     {
         Rubles
