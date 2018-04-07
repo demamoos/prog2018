@@ -18,20 +18,31 @@ namespace UnitTestProject1
                 FullName = "Savva Baranovsky",
                 Price = 50000,
                 Currency = Currency.Rubles,
-                Laptop = new ElectronicRequirements()
-                {
-                   
-                   
-                },
-                
+                ElectronicRequirements = new ElectronicRequirements()
+                    { 
+                        NameLaptop = new List<NameLaptop>()
+                        {
+                            
+                            new NameLaptop () {Name = "MSI" },
+                        },
+                      
+                    },
+                Additions = new List<Addition>()
+                        {
+                            new Addition () {Memory = 8 },
+                            new Addition () {VideoCard = "Nvidia" },
+                            new Addition () {Processor = "Intel Core I7" },
+
+                        }
+
             };
             var tempFileName = Path.GetTempFileName();
             try
             {
                 ElectronicHelper.WriteToFile(tempFileName, electro);
                 var readElectro = ElectronicHelper.LoadFromFile(tempFileName);
-                Assert.AreEqual(electro.WayPoints.Count, readElectro.WayPoints.Count);
-                Assert.AreEqual(electro.d, readElectro.dateTime);
+                Assert.AreEqual(electro.Additions.Count, readElectro.Additions.Count);
+                Assert.AreEqual(electro.dateTime, readElectro.dateTime);
             }
             finally
             {

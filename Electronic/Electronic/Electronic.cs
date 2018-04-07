@@ -25,7 +25,12 @@ namespace Electronic
         /// <summary>
         /// Сведения о ноутбуке
         /// </summary>
-        public List <ElectronicRequirements> ElectronicRequirements { get; set; }
+        public ElectronicRequirements ElectronicRequirements { get; set; }
+        /// <summary>
+        /// Дополнительные сведения
+        /// </summary>
+        public List<Addition> Additions { get; set; }
+
         /// <summary>
         /// Стоимость
         /// </summary>
@@ -34,7 +39,11 @@ namespace Electronic
       
     }
 
+    /// <summary>   
+    /// Наименование марки производителя
+    /// </summary>
     
+
     /// <summary>
     /// Сведения о ноутбуке
     /// </summary>
@@ -43,22 +52,22 @@ namespace Electronic
         /// <summary>   
         /// Наименование марки производителя
         /// </summary>
-        public string NameLaptop{ get; set; }
-        /// <summary>
-        /// Дополнительные сведения
-        /// </summary>
-        public List<Addition> additions { get; set; }
-        public override string ToString()
-        {
-            return NameLaptop;
-        }
+        public List<NameLaptop> NameLaptop{ get; set; }
+       
+        
         public ElectronicRequirements Clone()
         {
-            return new ElectronicRequirements { NameLaptop = NameLaptop, additions = additions };
+            return new ElectronicRequirements { NameLaptop = NameLaptop};
         }
     }
+    public class NameLaptop
+    { /// <summary>   
+      /// Наименование марки производителя
+      /// </summary>
+      public string Name { get; set; }
 
-    
+    }
+
     public class  Addition
     {
         /// <summary>

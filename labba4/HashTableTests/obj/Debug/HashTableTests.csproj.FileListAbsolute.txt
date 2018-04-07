@@ -7,3 +7,12 @@ C:\Users\IPY\Documents\Visual Studio 2015\Projects\ConsoleApplication15\HashTabl
 C:\Users\IPY\Documents\Visual Studio 2015\Projects\ConsoleApplication15\HashTableTests\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
 C:\Users\IPY\Documents\Visual Studio 2015\Projects\ConsoleApplication15\HashTableTests\obj\Debug\HashTableTests.dll
 C:\Users\IPY\Documents\Visual Studio 2015\Projects\ConsoleApplication15\HashTableTests\obj\Debug\HashTableTests.pdb
+C:\Users\IPY\Documents\GitHub\prog2018\labba4\HashTableTests\bin\Debug\HashTableTests.dll
+C:\Users\IPY\Documents\GitHub\prog2018\labba4\HashTableTests\bin\Debug\HashTableTests.pdb
+C:\Users\IPY\Documents\GitHub\prog2018\labba4\HashTableTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\IPY\Documents\GitHub\prog2018\labba4\HashTableTests\bin\Debug\ConsoleApplication15.pdb
+C:\Users\IPY\Documents\GitHub\prog2018\labba4\HashTableTests\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\IPY\Documents\GitHub\prog2018\labba4\HashTableTests\obj\Debug\HashTableTests.csprojResolveAssemblyReference.cache
+C:\Users\IPY\Documents\GitHub\prog2018\labba4\HashTableTests\obj\Debug\HashTableTests.dll
+C:\Users\IPY\Documents\GitHub\prog2018\labba4\HashTableTests\obj\Debug\HashTableTests.pdb
+C:\Users\IPY\Documents\GitHub\prog2018\labba4\HashTableTests\bin\Debug\ConsoleApplication15.exe

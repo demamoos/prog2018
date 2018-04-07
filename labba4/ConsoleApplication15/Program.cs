@@ -9,8 +9,8 @@ namespace HashTable
 {
     public class HashTable
     {
-        public static void Main() { } 
-           
+        public static void Main() { }
+
         class KeyValuePair
         {
             public object Key { get; set; }
