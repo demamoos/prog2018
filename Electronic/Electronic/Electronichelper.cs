@@ -10,12 +10,12 @@ namespace Electronic
 {
     public static class ElectronicHelper
     {
-        private static readonly XmlSerializer Xs = new XmlSerializer(typeof(Choice));
+        private static readonly XmlSerializer Xml = new XmlSerializer(typeof(Choice));
         public static void WriteToFile(string fileName, Choice data)
         {
             using (var fileStream = File.Create(fileName))
             {
-                Xs.Serialize(fileStream, data);
+                Xml.Serialize(fileStream, data);
             }
         }
 
@@ -23,7 +23,7 @@ namespace Electronic
         {
             using (var fileStream = File.OpenRead(fileName))
             {
-                return (Choice)Xs.Deserialize(fileStream);
+                return (Choice)Xml.Deserialize(fileStream);
             }
         }
     }

@@ -14,25 +14,21 @@ namespace UnitTestProject1
         {
             var electro = new Choice
             {
-                dateTime = DateTime.Now,
+                NewTime = DateTime.Now,
                 FullName = "Savva Baranovsky",
                 Price = 50000,
                 Currency = Currency.Rubles,
-                ElectronicRequirements = new ElectronicRequirements()
-                    { 
-                        NameLaptop = new List<NameLaptop>()
-                        {
-                            
-                            new NameLaptop () {Name = "MSI" },
-                        },
-                      
-                    },
+               
                 Additions = new List<Addition>()
                         {
-                            new Addition () {Memory = 8 },
-                            new Addition () {VideoCard = "Nvidia" },
-                            new Addition () {Processor = "Intel Core I7" },
-
+                            new Addition ()
+                            {
+                                Name = "MSI",
+                                Memory = '8',
+                                VideoCard = "Nvidia",
+                                Processor = "Intel Core I7"
+                            }
+                            
                         }
 
             };
@@ -42,7 +38,7 @@ namespace UnitTestProject1
                 ElectronicHelper.WriteToFile(tempFileName, electro);
                 var readElectro = ElectronicHelper.LoadFromFile(tempFileName);
                 Assert.AreEqual(electro.Additions.Count, readElectro.Additions.Count);
-                Assert.AreEqual(electro.dateTime, readElectro.dateTime);
+                Assert.AreEqual(electro.NewTime, readElectro.NewTime);
             }
             finally
             {

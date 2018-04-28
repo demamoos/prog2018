@@ -17,7 +17,7 @@ namespace Electronic
         /// <summary>
         /// Дата заполнения
         /// </summary>
-        public DateTime dateTime { get; set; }
+        public NewTime NewTime { get; set; }
         /// <summary>
         /// ФИО покупателя
         /// </summary>
@@ -25,55 +25,12 @@ namespace Electronic
         /// <summary>
         /// Сведения о ноутбуке
         /// </summary>
-        public ElectronicRequirements ElectronicRequirements { get; set; }
-        /// <summary>
-        /// Дополнительные сведения
-        /// </summary>
-        public List<Addition> Additions { get; set; }
 
-        /// <summary>
-        /// Стоимость
-        /// </summary>
-        public double Price { get; set; }
-        public Currency Currency { get; set; }
-      
-    }
-
-    /// <summary>   
-    /// Наименование марки производителя
-    /// </summary>
-    
-
-    /// <summary>
-    /// Сведения о ноутбуке
-    /// </summary>
-    public class ElectronicRequirements
-    {   
-        /// <summary>   
-        /// Наименование марки производителя
-        /// </summary>
-        public List<NameLaptop> NameLaptop{ get; set; }
-       
-        
-        public ElectronicRequirements Clone()
-        {
-            return new ElectronicRequirements { NameLaptop = NameLaptop};
-        }
-    }
-    public class NameLaptop
-    { /// <summary>   
-      /// Наименование марки производителя
-      /// </summary>
-      public string Name { get; set; }
-
-    }
-
-    public class  Addition
-    {
+        public string Name { get; set; }
         /// <summary>
         /// Оперативная память
         /// </summary>
-        public int Memory { get; set; }
+        public string Memory { get; set; }
         /// <summary>
         /// Видеокарта
         /// </summary>
@@ -82,24 +39,37 @@ namespace Electronic
         /// Процессор
         /// </summary>
         public string Processor { get; set; }
-        public override string ToString()
-        {
-            return string.Format("{0} {1} {2} {3}", Memory, VideoCard, Processor);
-        }  
-        public Addition Clone()
-        {
-            return new Addition { Memory = Memory, VideoCard = VideoCard, Processor = Processor };
-        }
+
+
+        /// <summary>
+        /// Стоимость
+        /// </summary>
+        public decimal Price { get; set; }
+        
 
     }
 
+    /// <summary>   
+    /// Наименование марки производителя
+    /// </summary>
+
+
+    /// <summary>
+    /// Сведения о ноутбуке
+    /// </summary>
+    
+
+
+
+   
     /// <summary>
     /// Наименования ноутбуков
     /// </summary>
-  
-    public enum Currency
-    {
-        Rubles
-    }
+
+    public class NewTime
+        {
+            public DateTime Filled { get; set; }
+        }
+
 
 }
