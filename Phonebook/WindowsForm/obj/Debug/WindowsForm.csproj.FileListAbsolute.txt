@@ -1,0 +1,13 @@
+c:\users\ipy\documents\visual studio 2015\Projects\PhoneBook\WindowsForm\bin\Debug\WindowsForm.exe.config
+c:\users\ipy\documents\visual studio 2015\Projects\PhoneBook\WindowsForm\bin\Debug\WindowsForm.exe
+c:\users\ipy\documents\visual studio 2015\Projects\PhoneBook\WindowsForm\bin\Debug\WindowsForm.pdb
+c:\users\ipy\documents\visual studio 2015\Projects\PhoneBook\WindowsForm\obj\Debug\WindowsForm.csprojResolveAssemblyReference.cache
+c:\users\ipy\documents\visual studio 2015\Projects\PhoneBook\WindowsForm\obj\Debug\WindowsForm.Form1.resources
+c:\users\ipy\documents\visual studio 2015\Projects\PhoneBook\WindowsForm\obj\Debug\WindowsForm.Properties.Resources.resources
+c:\users\ipy\documents\visual studio 2015\Projects\PhoneBook\WindowsForm\obj\Debug\WindowsForm.csproj.GenerateResource.Cache
+c:\users\ipy\documents\visual studio 2015\Projects\PhoneBook\WindowsForm\obj\Debug\WindowsForm.exe
+c:\users\ipy\documents\visual studio 2015\Projects\PhoneBook\WindowsForm\obj\Debug\WindowsForm.pdb
+C:\Users\IPY\Documents\Visual Studio 2015\Projects\PhoneBook\WindowsForm\obj\Debug\WindowsForm.Form2.resources
+C:\Users\IPY\Documents\GitHub\prog2018\Phonebook\WindowsForm\bin\Debug\WindowsForm.exe.config
+C:\Users\IPY\Documents\GitHub\prog2018\Phonebook\WindowsForm\obj\Debug\WindowsForm.exe
+C:\Users\IPY\Documents\GitHub\prog2018\Phonebook\WindowsForm\obj\Debug\WindowsForm.pdb

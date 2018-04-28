@@ -1,0 +1,6 @@
+c:\users\ipy\documents\visual studio 2015\Projects\PhoneBook\PhoneBook\bin\Debug\PhoneBook.exe.config
+c:\users\ipy\documents\visual studio 2015\Projects\PhoneBook\PhoneBook\bin\Debug\PhoneBook.exe
+c:\users\ipy\documents\visual studio 2015\Projects\PhoneBook\PhoneBook\bin\Debug\PhoneBook.pdb
+c:\users\ipy\documents\visual studio 2015\Projects\PhoneBook\PhoneBook\obj\Debug\PhoneBook.csprojResolveAssemblyReference.cache
+c:\users\ipy\documents\visual studio 2015\Projects\PhoneBook\PhoneBook\obj\Debug\PhoneBook.exe
+c:\users\ipy\documents\visual studio 2015\Projects\PhoneBook\PhoneBook\obj\Debug\PhoneBook.pdb
